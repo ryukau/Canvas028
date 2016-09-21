@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset=utf-8>
+  <title>Canvas028</title>
+  <style type="text/css">
+    body {
+      margin: 0;
+      /*overflow: hidden;*/
+    }
+
+    canvas {
+      /* image-rendering: pixelated; */
+      border-style: solid;
+      border-width: 0.2px;
+      border-color: #000000;
+    }
+
+    #main {
+      max-width: 800px;
+      margin: 0 auto;
+    }
+  </style>
+</head>
+
+<body>
+  <div id="main">
+    <h1>多角形オシレータ</h1>
+    <p>多角形のふちを回っている緑の点をもとにして波を描いています。</p>
+    <p>左上のキャンバスをクリックすると多角形がランダムに変化します。</p>
+  </div>
+
+  <script src="util.js"></script>
+  <script src="intersection.js"></script>
+  <script src="vec2.js"></script>
+  <script src="z.js"></script>
+  <script src="canvas.js"></script>
+  <script src="polygonoscillator.js"></script>
+</body>
+
+</html>
